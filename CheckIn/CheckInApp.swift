@@ -11,7 +11,7 @@ import SwiftUI
 struct CheckInApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(pin:"")
+            ContentView(contentViewModel: ContentViewModel())
         }
     }
 }
